@@ -3,32 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Julian\\Desktop\\Programacion 2\\Objetos\\Crud_ConsultorioPsicologico\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C116FC68-E671-4531-A608-9507070F6AFD}|Crud_ConsultorioPsicologico\\Crud_ConsultorioPsicologico.csproj|c:\\users\\julian\\desktop\\programacion 2\\objetos\\crud_consultoriopsicologico\\crud_consultoriopsicologico\\ucregistropsicologo.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C116FC68-E671-4531-A608-9507070F6AFD}|Crud_ConsultorioPsicologico\\Crud_ConsultorioPsicologico.csproj|solutionrelative:crud_consultoriopsicologico\\ucregistropsicologo.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C116FC68-E671-4531-A608-9507070F6AFD}|Crud_ConsultorioPsicologico\\Crud_ConsultorioPsicologico.csproj|c:\\users\\julian\\desktop\\programacion 2\\objetos\\crud_consultoriopsicologico\\crud_consultoriopsicologico\\uc_registropacientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C116FC68-E671-4531-A608-9507070F6AFD}|Crud_ConsultorioPsicologico\\Crud_ConsultorioPsicologico.csproj|solutionrelative:crud_consultoriopsicologico\\uc_registropacientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C116FC68-E671-4531-A608-9507070F6AFD}|Crud_ConsultorioPsicologico\\Crud_ConsultorioPsicologico.csproj|C:\\Users\\Julian\\Desktop\\Programacion 2\\Objetos\\Crud_ConsultorioPsicologico\\crud_consultoriopsicologico\\administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C116FC68-E671-4531-A608-9507070F6AFD}|Crud_ConsultorioPsicologico\\Crud_ConsultorioPsicologico.csproj|solutionrelative:crud_consultoriopsicologico\\administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C116FC68-E671-4531-A608-9507070F6AFD}|Crud_ConsultorioPsicologico\\Crud_ConsultorioPsicologico.csproj|C:\\Users\\Julian\\Desktop\\Programacion 2\\Objetos\\Crud_ConsultorioPsicologico\\crud_consultoriopsicologico\\loginmdi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C116FC68-E671-4531-A608-9507070F6AFD}|Crud_ConsultorioPsicologico\\Crud_ConsultorioPsicologico.csproj|solutionrelative:crud_consultoriopsicologico\\loginmdi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C116FC68-E671-4531-A608-9507070F6AFD}|Crud_ConsultorioPsicologico\\Crud_ConsultorioPsicologico.csproj|c:\\users\\julian\\desktop\\programacion 2\\objetos\\crud_consultoriopsicologico\\crud_consultoriopsicologico\\administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C116FC68-E671-4531-A608-9507070F6AFD}|Crud_ConsultorioPsicologico\\Crud_ConsultorioPsicologico.csproj|solutionrelative:crud_consultoriopsicologico\\administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C116FC68-E671-4531-A608-9507070F6AFD}|Crud_ConsultorioPsicologico\\Crud_ConsultorioPsicologico.csproj|C:\\Users\\Julian\\Desktop\\Programacion 2\\Objetos\\Crud_ConsultorioPsicologico\\crud_consultoriopsicologico\\ucregistropsicologo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C116FC68-E671-4531-A608-9507070F6AFD}|Crud_ConsultorioPsicologico\\Crud_ConsultorioPsicologico.csproj|solutionrelative:crud_consultoriopsicologico\\ucregistropsicologo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C116FC68-E671-4531-A608-9507070F6AFD}|Crud_ConsultorioPsicologico\\Crud_ConsultorioPsicologico.csproj|c:\\users\\julian\\desktop\\programacion 2\\objetos\\crud_consultoriopsicologico\\crud_consultoriopsicologico\\ucregistropsicologo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C116FC68-E671-4531-A608-9507070F6AFD}|Crud_ConsultorioPsicologico\\Crud_ConsultorioPsicologico.csproj|solutionrelative:crud_consultoriopsicologico\\ucregistropsicologo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C116FC68-E671-4531-A608-9507070F6AFD}|Crud_ConsultorioPsicologico\\Crud_ConsultorioPsicologico.csproj|c:\\users\\julian\\desktop\\programacion 2\\objetos\\crud_consultoriopsicologico\\crud_consultoriopsicologico\\loginmdi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C116FC68-E671-4531-A608-9507070F6AFD}|Crud_ConsultorioPsicologico\\Crud_ConsultorioPsicologico.csproj|solutionrelative:crud_consultoriopsicologico\\loginmdi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C116FC68-E671-4531-A608-9507070F6AFD}|Crud_ConsultorioPsicologico\\Crud_ConsultorioPsicologico.csproj|c:\\users\\julian\\desktop\\programacion 2\\objetos\\crud_consultoriopsicologico\\crud_consultoriopsicologico\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C116FC68-E671-4531-A608-9507070F6AFD}|Crud_ConsultorioPsicologico\\Crud_ConsultorioPsicologico.csproj|solutionrelative:crud_consultoriopsicologico\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,94 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UCRegistroPsicologo.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Julian\\Desktop\\Programacion 2\\Objetos\\Crud_ConsultorioPsicologico\\Crud_ConsultorioPsicologico\\UCRegistroPsicologo.Designer.cs",
-              "RelativeDocumentMoniker": "Crud_ConsultorioPsicologico\\UCRegistroPsicologo.Designer.cs",
-              "ToolTip": "C:\\Users\\Julian\\Desktop\\Programacion 2\\Objetos\\Crud_ConsultorioPsicologico\\Crud_ConsultorioPsicologico\\UCRegistroPsicologo.Designer.cs",
-              "RelativeToolTip": "Crud_ConsultorioPsicologico\\UCRegistroPsicologo.Designer.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowCgAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T01:11:31.417Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UCRegistroPsicologo.cs",
-              "DocumentMoniker": "C:\\Users\\Julian\\Desktop\\Programacion 2\\Objetos\\Crud_ConsultorioPsicologico\\Crud_ConsultorioPsicologico\\UCRegistroPsicologo.cs",
-              "RelativeDocumentMoniker": "Crud_ConsultorioPsicologico\\UCRegistroPsicologo.cs",
-              "ToolTip": "C:\\Users\\Julian\\Desktop\\Programacion 2\\Objetos\\Crud_ConsultorioPsicologico\\Crud_ConsultorioPsicologico\\UCRegistroPsicologo.cs",
-              "RelativeToolTip": "Crud_ConsultorioPsicologico\\UCRegistroPsicologo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T01:11:17.161Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UCRegistroPsicologo.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Julian\\Desktop\\Programacion 2\\Objetos\\Crud_ConsultorioPsicologico\\Crud_ConsultorioPsicologico\\UCRegistroPsicologo.cs",
-              "RelativeDocumentMoniker": "Crud_ConsultorioPsicologico\\UCRegistroPsicologo.cs",
-              "ToolTip": "C:\\Users\\Julian\\Desktop\\Programacion 2\\Objetos\\Crud_ConsultorioPsicologico\\Crud_ConsultorioPsicologico\\UCRegistroPsicologo.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Crud_ConsultorioPsicologico\\UCRegistroPsicologo.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T00:40:32.866Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Administrador.cs",
-              "DocumentMoniker": "C:\\Users\\Julian\\Desktop\\Programacion 2\\Objetos\\Crud_ConsultorioPsicologico\\Crud_ConsultorioPsicologico\\Administrador.cs",
-              "RelativeDocumentMoniker": "Crud_ConsultorioPsicologico\\Administrador.cs",
-              "ToolTip": "C:\\Users\\Julian\\Desktop\\Programacion 2\\Objetos\\Crud_ConsultorioPsicologico\\Crud_ConsultorioPsicologico\\Administrador.cs",
-              "RelativeToolTip": "Crud_ConsultorioPsicologico\\Administrador.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAwwBoAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T23:31:35.556Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LoginMdi.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Julian\\Desktop\\Programacion 2\\Objetos\\Crud_ConsultorioPsicologico\\Crud_ConsultorioPsicologico\\LoginMdi.cs",
-              "RelativeDocumentMoniker": "Crud_ConsultorioPsicologico\\LoginMdi.cs",
-              "ToolTip": "C:\\Users\\Julian\\Desktop\\Programacion 2\\Objetos\\Crud_ConsultorioPsicologico\\Crud_ConsultorioPsicologico\\LoginMdi.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Crud_ConsultorioPsicologico\\LoginMdi.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T23:05:27.297Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Administrador.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Julian\\Desktop\\Programacion 2\\Objetos\\Crud_ConsultorioPsicologico\\Crud_ConsultorioPsicologico\\Administrador.cs",
-              "RelativeDocumentMoniker": "Crud_ConsultorioPsicologico\\Administrador.cs",
-              "ToolTip": "C:\\Users\\Julian\\Desktop\\Programacion 2\\Objetos\\Crud_ConsultorioPsicologico\\Crud_ConsultorioPsicologico\\Administrador.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Crud_ConsultorioPsicologico\\Administrador.cs [Dise\u00F1o]",
+              "Title": "Paciente.cs",
+              "DocumentMoniker": "C:\\Users\\Julian\\Desktop\\Programacion 2\\Objetos\\Crud_ConsultorioPsicologico\\Crud_ConsultorioPsicologico\\Paciente.cs",
+              "RelativeDocumentMoniker": "Crud_ConsultorioPsicologico\\Paciente.cs",
+              "ToolTip": "C:\\Users\\Julian\\Desktop\\Programacion 2\\Objetos\\Crud_ConsultorioPsicologico\\Crud_ConsultorioPsicologico\\Paciente.cs",
+              "RelativeToolTip": "Crud_ConsultorioPsicologico\\Paciente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T21:01:18.079Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-11-03T21:06:51.003Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LoginMdi.cs",
-              "DocumentMoniker": "C:\\Users\\Julian\\Desktop\\Programacion 2\\Objetos\\Crud_ConsultorioPsicologico\\Crud_ConsultorioPsicologico\\LoginMdi.cs",
-              "RelativeDocumentMoniker": "Crud_ConsultorioPsicologico\\LoginMdi.cs",
-              "ToolTip": "C:\\Users\\Julian\\Desktop\\Programacion 2\\Objetos\\Crud_ConsultorioPsicologico\\Crud_ConsultorioPsicologico\\LoginMdi.cs",
-              "RelativeToolTip": "Crud_ConsultorioPsicologico\\LoginMdi.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "UC_RegistroPacientes.cs",
+              "DocumentMoniker": "C:\\Users\\Julian\\Desktop\\Programacion 2\\Objetos\\Crud_ConsultorioPsicologico\\Crud_ConsultorioPsicologico\\UC_RegistroPacientes.cs",
+              "RelativeDocumentMoniker": "Crud_ConsultorioPsicologico\\UC_RegistroPacientes.cs",
+              "ToolTip": "C:\\Users\\Julian\\Desktop\\Programacion 2\\Objetos\\Crud_ConsultorioPsicologico\\Crud_ConsultorioPsicologico\\UC_RegistroPacientes.cs",
+              "RelativeToolTip": "Crud_ConsultorioPsicologico\\UC_RegistroPacientes.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAIAwwCUAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T00:10:05.674Z",
+              "WhenOpened": "2025-11-03T21:05:20.121Z",
               "EditorCaption": ""
             }
           ]

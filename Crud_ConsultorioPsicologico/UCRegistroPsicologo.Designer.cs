@@ -28,28 +28,27 @@
         /// </summary>
         private void InitializeComponent()
         {
-            dateTimePicker1 = new DateTimePicker();
+            monthCalendar1 = new MonthCalendar();
             SuspendLayout();
             // 
-            // dateTimePicker1
+            // monthCalendar1
             // 
-            dateTimePicker1.Location = new Point(174, 109);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(200, 23);
-            dateTimePicker1.TabIndex = 0;
+            monthCalendar1.Location = new Point(271, 102);
+            monthCalendar1.Name = "monthCalendar1";
+            monthCalendar1.TabIndex = 1;
             // 
             // UCRegistroPsicologo
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            Controls.Add(dateTimePicker1);
+            Controls.Add(monthCalendar1);
             Name = "UCRegistroPsicologo";
-            Size = new Size(487, 278);
+            Size = new Size(817, 424);
             ResumeLayout(false);
         }
 
         #endregion
 
-        private DateTimePicker dateTimePicker1;
+        private MonthCalendar monthCalendar1;
     }
 }

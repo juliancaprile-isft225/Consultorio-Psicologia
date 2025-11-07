@@ -8,24 +8,28 @@ namespace Crud_ConsultorioPsicologico
 {
     internal class Paciente
     {
+        public int IdPaciente { get; set; }
         public string Nombre { get; set; }
         public string Apellido { get; set; }
 
-        public int Edad { get; set; }
+        public int fechaNacimiento { get; set; }
+
+        public string Direccion { get; set; }
 
         public string Motivo { get; set; }
+
+        public string Dni { get; set; }
+
+        public string Telefono { get; set; }
+
+        public string Correo { get; set; }
+
+      
+
+
 
 
 
     }
-        /*
-    // constructor por si quiero mostrar datos del paciente
-    public Paciente (string nombre, string apellido, int edad , string motivo)
-        {
-            Nombre = nombre;
-            Apellido = apellido;
-            Edad = edad;
-            Motivo = motivo;
-        }
-        */
+    
 }

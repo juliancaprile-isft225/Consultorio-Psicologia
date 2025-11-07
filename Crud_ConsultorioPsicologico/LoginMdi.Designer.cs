@@ -27,32 +27,115 @@
         /// </summary>
         private void InitializeComponent()
         {
-            btn_Entrar = new Button();
+            groupBox2 = new GroupBox();
+            btnEntrar = new Button();
+            btnRegistrarse = new TextBox();
+            textBox2 = new TextBox();
+            textBox1 = new TextBox();
+            label3 = new Label();
+            label2 = new Label();
+            label1 = new Label();
+            groupBox2.SuspendLayout();
             SuspendLayout();
             // 
-            // btn_Entrar
+            // groupBox2
             // 
-            btn_Entrar.Location = new Point(304, 170);
-            btn_Entrar.Name = "btn_Entrar";
-            btn_Entrar.Size = new Size(75, 23);
-            btn_Entrar.TabIndex = 0;
-            btn_Entrar.Text = "Entrar";
-            btn_Entrar.UseVisualStyleBackColor = true;
-            btn_Entrar.Click += btn_Entrar_Click;
+            groupBox2.BackColor = SystemColors.ScrollBar;
+            groupBox2.Controls.Add(btnEntrar);
+            groupBox2.Controls.Add(btnRegistrarse);
+            groupBox2.Controls.Add(textBox2);
+            groupBox2.Controls.Add(textBox1);
+            groupBox2.Controls.Add(label3);
+            groupBox2.Controls.Add(label2);
+            groupBox2.Controls.Add(label1);
+            groupBox2.Location = new Point(170, 76);
+            groupBox2.Name = "groupBox2";
+            groupBox2.Size = new Size(502, 316);
+            groupBox2.TabIndex = 3;
+            groupBox2.TabStop = false;
+            // 
+            // btnEntrar
+            // 
+            btnEntrar.Location = new Point(298, 279);
+            btnEntrar.Name = "btnEntrar";
+            btnEntrar.Size = new Size(75, 23);
+            btnEntrar.TabIndex = 6;
+            btnEntrar.Text = "Entrar";
+            btnEntrar.UseVisualStyleBackColor = true;
+            btnEntrar.Click += btnEntrar_Click;
+            // 
+            // btnRegistrarse
+            // 
+            btnRegistrarse.Location = new Point(141, 280);
+            btnRegistrarse.Name = "btnRegistrarse";
+            btnRegistrarse.Size = new Size(100, 23);
+            btnRegistrarse.TabIndex = 5;
+            btnRegistrarse.Text = "Registrarse";
+            // 
+            // textBox2
+            // 
+            textBox2.Location = new Point(69, 217);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(100, 23);
+            textBox2.TabIndex = 4;
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(69, 129);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(100, 23);
+            textBox1.TabIndex = 3;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(69, 180);
+            label3.Name = "label3";
+            label3.Size = new Size(67, 15);
+            label3.TabIndex = 2;
+            label3.Text = "Contraseña";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(69, 96);
+            label2.Name = "label2";
+            label2.Size = new Size(47, 15);
+            label2.TabIndex = 1;
+            label2.Text = "Usuario";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(196, 36);
+            label1.Name = "label1";
+            label1.Size = new Size(76, 15);
+            label1.TabIndex = 0;
+            label1.Text = "Iniciar Sesion";
             // 
             // LoginMdi
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(btn_Entrar);
+            Controls.Add(groupBox2);
             Name = "LoginMdi";
             Text = "LoginMdi";
+            groupBox2.ResumeLayout(false);
+            groupBox2.PerformLayout();
             ResumeLayout(false);
         }
 
         #endregion
 
-        private Button btn_Entrar;
+
+        private GroupBox groupBox2;
+        private TextBox btnRegistrarse;
+        private TextBox textBox2;
+        private TextBox textBox1;
+        private Label label3;
+        private Label label2;
+        private Label label1;
+        private Button btnEntrar;
     }
 }

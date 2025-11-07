@@ -47,7 +47,7 @@ namespace Crud_ConsultorioPsicologico
             registroPsicologo.Show(); // mostramos
         }
 
-        // Método para cargar cualquier UserControl en el Panel Contenedor
+        // Método para cargar cualquier UserControl en el Panel Contenedor 
         private void LoadUserControl(System.Windows.Forms.UserControl userControl)
         {
             

@@ -7,10 +7,10 @@ namespace Crud_ConsultorioPsicologico
             InitializeComponent();
         }
 
-        private void btn_Entrar_Click(object sender, EventArgs e)
+        private void btnEntrar_Click(object sender, EventArgs e)
         {
-            Form administradorForm = new Administrador();
-            administradorForm.Show();
+            Administrador Administrador = new Administrador();
+            Administrador.Show();
         }
     }
 }
