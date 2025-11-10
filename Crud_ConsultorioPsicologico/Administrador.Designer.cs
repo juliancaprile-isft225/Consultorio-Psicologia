@@ -79,14 +79,15 @@
             // verAgendaToolStripMenuItem
             // 
             verAgendaToolStripMenuItem.Name = "verAgendaToolStripMenuItem";
-            verAgendaToolStripMenuItem.Size = new Size(155, 22);
+            verAgendaToolStripMenuItem.Size = new Size(180, 22);
             verAgendaToolStripMenuItem.Text = "Ver Agenda";
             // 
             // registrarTurnoToolStripMenuItem
             // 
             registrarTurnoToolStripMenuItem.Name = "registrarTurnoToolStripMenuItem";
-            registrarTurnoToolStripMenuItem.Size = new Size(155, 22);
+            registrarTurnoToolStripMenuItem.Size = new Size(180, 22);
             registrarTurnoToolStripMenuItem.Text = "Registrar Turno";
+            registrarTurnoToolStripMenuItem.Click += turnosToolStripMenuItem_Click;
             // 
             // PanelRegistros
             // 

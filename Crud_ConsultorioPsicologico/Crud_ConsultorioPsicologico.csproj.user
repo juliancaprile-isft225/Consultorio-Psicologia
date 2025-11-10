@@ -16,5 +16,8 @@
     <Compile Update="UC_RegistroPacientes.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="UC_Turnos.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

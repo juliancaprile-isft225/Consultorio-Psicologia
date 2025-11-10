@@ -135,6 +135,7 @@
             btn_Guardar.TabIndex = 9;
             btn_Guardar.Text = "Guardar";
             btn_Guardar.UseVisualStyleBackColor = true;
+            btn_Guardar.Click += btnGuardar_Click;
             // 
             // btnModificar
             // 
@@ -144,6 +145,7 @@
             btnModificar.TabIndex = 10;
             btnModificar.Text = "Modificar";
             btnModificar.UseVisualStyleBackColor = true;
+            btnModificar.Click += btnActualizar_Click;
             // 
             // btnEliminar
             // 
@@ -153,14 +155,17 @@
             btnEliminar.TabIndex = 11;
             btnEliminar.Text = "Eliminar";
             btnEliminar.UseVisualStyleBackColor = true;
+            btnEliminar.Click += btnEliminar_Click;
             // 
             // dtgRegistroPaciente
             // 
             dtgRegistroPaciente.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dtgRegistroPaciente.Location = new Point(31, 266);
             dtgRegistroPaciente.Name = "dtgRegistroPaciente";
+            dtgRegistroPaciente.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dtgRegistroPaciente.Size = new Size(1139, 316);
             dtgRegistroPaciente.TabIndex = 12;
+            dtgRegistroPaciente.CellClick += dtgRegistroPaciente_CellClick;
             // 
             // label6
             // 
@@ -252,7 +257,7 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "UC_RegistroPacientes";
-            Size = new Size(1200, 600);
+            Size = new Size(1199, 600);
             ((System.ComponentModel.ISupportInitialize)dtgRegistroPaciente).EndInit();
             ResumeLayout(false);
             PerformLayout();

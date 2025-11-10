@@ -40,3 +40,4 @@ C:\Users\Julian\Desktop\Programacion 2\Objetos\Crud_ConsultorioPsicologico\Crud_
 C:\Users\Julian\Desktop\Programacion 2\Objetos\Crud_ConsultorioPsicologico\Crud_ConsultorioPsicologico\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
 C:\Users\Julian\Desktop\Programacion 2\Objetos\Crud_ConsultorioPsicologico\Crud_ConsultorioPsicologico\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
 C:\Users\Julian\Desktop\Programacion 2\Objetos\Crud_ConsultorioPsicologico\Crud_ConsultorioPsicologico\obj\Debug\net8.0-windows\Crud_Con.6167EEC7.Up2Date
+C:\Users\Julian\Desktop\Programacion 2\Objetos\Crud_ConsultorioPsicologico\Crud_ConsultorioPsicologico\obj\Debug\net8.0-windows\Crud_ConsultorioPsicologico.UC_Turnos.resources

@@ -6,21 +6,21 @@ using System.Threading.Tasks;
 
 namespace Crud_ConsultorioPsicologico
 {
-    internal class Paciente
+    public class Paciente
     {
         public int IdPaciente { get; set; }
         public string Nombre { get; set; }
         public string Apellido { get; set; }
 
-        public int fechaNacimiento { get; set; }
+        public int fechanacimiento { get; set; }
 
         public string Direccion { get; set; }
 
         public string Motivo { get; set; }
 
-        public string Dni { get; set; }
+        public int Dni { get; set; }
 
-        public string Telefono { get; set; }
+        public int Telefono { get; set; }
 
         public string Correo { get; set; }
 

@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             monthCalendar1 = new MonthCalendar();
+            mySqlDataAdapter1 = new MySql.Data.MySqlClient.MySqlDataAdapter();
             SuspendLayout();
             // 
             // monthCalendar1
@@ -36,6 +37,13 @@
             monthCalendar1.Location = new Point(271, 102);
             monthCalendar1.Name = "monthCalendar1";
             monthCalendar1.TabIndex = 1;
+            // 
+            // mySqlDataAdapter1
+            // 
+            mySqlDataAdapter1.DeleteCommand = null;
+            mySqlDataAdapter1.InsertCommand = null;
+            mySqlDataAdapter1.SelectCommand = null;
+            mySqlDataAdapter1.UpdateCommand = null;
             // 
             // UCRegistroPsicologo
             // 
@@ -50,5 +58,6 @@
         #endregion
 
         private MonthCalendar monthCalendar1;
+        private MySql.Data.MySqlClient.MySqlDataAdapter mySqlDataAdapter1;
     }
 }
