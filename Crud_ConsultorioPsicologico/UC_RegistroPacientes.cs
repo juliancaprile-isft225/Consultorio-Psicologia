@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Data;
 using System.Windows.Forms;
+using Crud_ConsultorioPsicologico.Clases;
 using MySql.Data.MySqlClient;
 
 namespace Crud_ConsultorioPsicologico
@@ -9,7 +10,7 @@ namespace Crud_ConsultorioPsicologico
     {
         private PacienteDAO pacienteDAO = new PacienteDAO();
 
-        // Constructor (sin cambios)
+       
         public UC_RegistroPacientes()
         {
             InitializeComponent();
@@ -31,7 +32,7 @@ namespace Crud_ConsultorioPsicologico
                
                 fechaNacimientoSQL = txtFechaNacimiento.Text.Trim();
 
-                // Validación de que DNI y Teléfono sean números
+                // Validación de que DNI y Telefono sean números
                 dniSQL = int.Parse(txtDni.Text);
                 telefonoSQL = int.Parse(txtTelefono.Text);
 
@@ -81,7 +82,7 @@ namespace Crud_ConsultorioPsicologico
 
             try
             {
-                // 1. Lógica de UI (Parseo/Validación): Solo DNI y Teléfono requieren ser números
+                
                 fechaNacimientoSQL = txtFechaNacimiento.Text.Trim();
 
                 dniSQL = int.Parse(txtDni.Text);
@@ -175,6 +176,8 @@ namespace Crud_ConsultorioPsicologico
             txtNombre.Focus();
         }
 
+
+        /*
         // Carga los datos de la fila seleccionada a los TextBox
         private void CargarCamposDesdeDGV()
         {
@@ -196,6 +199,8 @@ namespace Crud_ConsultorioPsicologico
             }
         }
 
+        */
+
         // Evento Load del UserControl (para cargar datos al iniciar)
         private void UC_RegistroPacientes_Load(object sender, EventArgs e)
         {
@@ -205,7 +210,7 @@ namespace Crud_ConsultorioPsicologico
         // Evento Click del DataGridView (para cargar datos en los TextBox)
         private void dtgRegistroPaciente_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            CargarCamposDesdeDGV();
+           // CargarCamposDesdeDGV();
         }
 
         // fin de las clases
@@ -218,21 +223,97 @@ namespace Crud_ConsultorioPsicologico
             GuardarPaciente();
         }
 
-       
+        /*
+         private void btnActualizar_Click(object sender, EventArgs e)
+         {
+             if (dtgRegistroPaciente.SelectedRows.Count > 0)
+             {
+                 int idPaciente = Convert.ToInt32(dtgRegistroPaciente.SelectedRows[0].Cells["Id_Paciente"].Value);
+                 ActualizarPaciente(idPaciente);
+             }
+             else
+             {
+                 MessageBox.Show("Por favor, seleccione una fila y modifique los campos para actualizar.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+             }
+         }
+        */
+
+        // MODIFICAMOS LOS DATOS DESDE EL DTV
         private void btnActualizar_Click(object sender, EventArgs e)
         {
-            if (dtgRegistroPaciente.SelectedRows.Count > 0)
+            //  Validar que la grilla tenga datos
+            if (dtgRegistroPaciente.DataSource == null)
             {
-                int idPaciente = Convert.ToInt32(dtgRegistroPaciente.SelectedRows[0].Cells["Id_Paciente"].Value);
-                ActualizarPaciente(idPaciente);
+                MessageBox.Show("No hay datos cargados para actualizar.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
             }
-            else
+
+            //  ObtenE la DataTable que estA "atada" al DGV
+            // (Esta tabla contiene los cambios que el usuario hizo en la grilla)
+            DataTable dt = (DataTable)dtgRegistroPaciente.DataSource;
+
+            // 3 OBTENEMOS SOLO LAS FILAS MODIFICADAS
+            // FUNCION GETCHANGES 
+            //ROW STATE REPRESENTA EL ESTADO DE LA FILA
+            DataTable dtChanges = dt.GetChanges(DataRowState.Modified);
+
+            // 4 Si no hay cambios, no hacer nada
+            if (dtChanges == null)
             {
-                MessageBox.Show("Por favor, seleccione una fila y modifique los campos para actualizar.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("No se detectaron cambios para guardar.", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
+
+            // 5. Si hay cambios, recorrerlos uno por uno y actualizarlos en la DB
+            int filasActualizadas = 0;
+            try
+            {
+                // Recorremos la mini-tabla dtChanges
+                foreach (DataRow row in dtChanges.Rows)
+                {
+                    // Extraer datos de la fila (igual que en el CellValueChanged)
+                    // Usamos 'row' (la fila de la tabla de cambios)
+                    int idPaciente = Convert.ToInt32(row["Id_Paciente"]);
+                    string fechaNac = row["Fecha_Nacimiento"].ToString();
+                    int dni = int.Parse(row["Dni"].ToString());
+                    int telefono = int.Parse(row["Telefono"].ToString());
+
+                    Paciente paciente = new Paciente
+                    {
+                        IdPaciente = idPaciente,
+                        Nombre = row["Nombre"].ToString(),
+                        Apellido = row["Apellido"].ToString(),
+                        Direccion = row["Direccion"].ToString(),
+                        Motivo = row["Motivo_Consulta"].ToString(),
+                        Correo = row["Correo"].ToString()
+                    };
+
+                    // Llamar al DAO por CADA fila cambiada
+                    
+                    pacienteDAO.Actualizar(paciente, fechaNac, dni, telefono);
+                    filasActualizadas++;
+                }
+
+                // 6. "Confirmar" los cambios en la tabla en memoria 
+                // Esto le dice a la DataTable que los cambios ya se guardaron en la DB
+                dt.AcceptChanges();
+
+                MessageBox.Show($"¡Éxito! Se actualizaron {filasActualizadas} filas.", "Actualización por Lotes", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (FormatException ex)
+            {
+                MessageBox.Show("Error de formato en una de las filas editadas: DNI o Teléfono deben ser números.\n" + ex.Message, "Error de Lote", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                // Deshacer cambios en la grilla si algo falló
+                dt.RejectChanges();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error durante la actualización por lotes: " + ex.Message, "Error de Lote", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                // Deshacer cambios en la grilla si algo falló
+                dt.RejectChanges();
             }
         }
 
-     
         private void btnEliminar_Click(object sender, EventArgs e)
         {
             if (dtgRegistroPaciente.SelectedRows.Count > 0)

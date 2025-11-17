@@ -44,7 +44,7 @@
             menuStrip1.Items.AddRange(new ToolStripItem[] { registroToolStripMenuItem, turnosToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(800, 24);
+            menuStrip1.Size = new Size(1097, 24);
             menuStrip1.TabIndex = 0;
             menuStrip1.Text = "menuStrip1";
             // 
@@ -79,13 +79,13 @@
             // verAgendaToolStripMenuItem
             // 
             verAgendaToolStripMenuItem.Name = "verAgendaToolStripMenuItem";
-            verAgendaToolStripMenuItem.Size = new Size(180, 22);
+            verAgendaToolStripMenuItem.Size = new Size(155, 22);
             verAgendaToolStripMenuItem.Text = "Ver Agenda";
             // 
             // registrarTurnoToolStripMenuItem
             // 
             registrarTurnoToolStripMenuItem.Name = "registrarTurnoToolStripMenuItem";
-            registrarTurnoToolStripMenuItem.Size = new Size(180, 22);
+            registrarTurnoToolStripMenuItem.Size = new Size(155, 22);
             registrarTurnoToolStripMenuItem.Text = "Registrar Turno";
             registrarTurnoToolStripMenuItem.Click += turnosToolStripMenuItem_Click;
             // 
@@ -95,14 +95,14 @@
             PanelRegistros.Dock = DockStyle.Fill;
             PanelRegistros.Location = new Point(0, 24);
             PanelRegistros.Name = "PanelRegistros";
-            PanelRegistros.Size = new Size(800, 426);
+            PanelRegistros.Size = new Size(1097, 519);
             PanelRegistros.TabIndex = 1;
             // 
             // Administrador
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1097, 543);
             Controls.Add(PanelRegistros);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;

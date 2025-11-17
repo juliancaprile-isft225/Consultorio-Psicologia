@@ -159,11 +159,13 @@
             // 
             // dtgRegistroPaciente
             // 
+            dtgRegistroPaciente.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            dtgRegistroPaciente.BackgroundColor = SystemColors.InactiveCaption;
             dtgRegistroPaciente.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dtgRegistroPaciente.Location = new Point(31, 266);
             dtgRegistroPaciente.Name = "dtgRegistroPaciente";
             dtgRegistroPaciente.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dtgRegistroPaciente.Size = new Size(1139, 316);
+            dtgRegistroPaciente.Size = new Size(1139, 220);
             dtgRegistroPaciente.TabIndex = 12;
             dtgRegistroPaciente.CellClick += dtgRegistroPaciente_CellClick;
             // 
@@ -235,6 +237,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImageLayout = ImageLayout.Center;
             Controls.Add(txtCorreo);
             Controls.Add(txtTelefono);
             Controls.Add(label9);
@@ -257,7 +260,7 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "UC_RegistroPacientes";
-            Size = new Size(1199, 600);
+            Size = new Size(1199, 561);
             ((System.ComponentModel.ISupportInitialize)dtgRegistroPaciente).EndInit();
             ResumeLayout(false);
             PerformLayout();

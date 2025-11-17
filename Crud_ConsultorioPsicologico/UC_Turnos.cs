@@ -2,6 +2,7 @@
 using System.Data;
 using System.Drawing; // Necesario para cambiar colores
 using System.Windows.Forms;
+using Crud_ConsultorioPsicologico.Clases;
 
 namespace Crud_ConsultorioPsicologico
 {

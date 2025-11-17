@@ -3,7 +3,7 @@ using System.Data;
 using MySql.Data.MySqlClient;
 using System.Windows.Forms;
 
-namespace Crud_ConsultorioPsicologico
+namespace Crud_ConsultorioPsicologico.Clases
 {
     public class PacienteDAO
     {

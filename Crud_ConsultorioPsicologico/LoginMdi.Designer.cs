@@ -40,7 +40,7 @@
             // 
             // groupBox2
             // 
-            groupBox2.BackColor = SystemColors.ScrollBar;
+            groupBox2.BackColor = SystemColors.GradientActiveCaption;
             groupBox2.Controls.Add(btnEntrar);
             groupBox2.Controls.Add(btnRegistrarse);
             groupBox2.Controls.Add(textBox2);
@@ -117,6 +117,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ButtonHighlight;
             ClientSize = new Size(800, 450);
             Controls.Add(groupBox2);
             Name = "LoginMdi";

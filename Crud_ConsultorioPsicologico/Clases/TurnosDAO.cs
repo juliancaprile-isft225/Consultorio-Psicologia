@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
 
-namespace Crud_ConsultorioPsicologico
+namespace Crud_ConsultorioPsicologico.Clases
 {
     
     public class TurnosDAO
