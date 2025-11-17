@@ -24,9 +24,9 @@ namespace Crud_ConsultorioPsicologico.Clases
             }
         }
 
-        // --- MÉTODOS ABM ---
+        //  MeTODOS ABM 
 
-        // Método para INSERTAR (Alta) - NOTA: La fecha ahora es un string
+        // Metodo para INSERTAR 
         public void Guardar(Paciente paciente, string fechaNacimiento, int dni, int telefono)
         {
             try

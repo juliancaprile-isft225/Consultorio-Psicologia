@@ -201,13 +201,13 @@ namespace Crud_ConsultorioPsicologico
 
         */
 
-        // Evento Load del UserControl (para cargar datos al iniciar)
+       //evento
         private void UC_RegistroPacientes_Load(object sender, EventArgs e)
         {
             CargarDatos();
         }
 
-        // Evento Click del DataGridView (para cargar datos en los TextBox)
+        // evento click en el datagridview
         private void dtgRegistroPaciente_CellClick(object sender, DataGridViewCellEventArgs e)
         {
            // CargarCamposDesdeDGV();
@@ -237,6 +237,9 @@ namespace Crud_ConsultorioPsicologico
              }
          }
         */
+
+
+
 
         // MODIFICAMOS LOS DATOS DESDE EL DTV
         private void btnActualizar_Click(object sender, EventArgs e)
